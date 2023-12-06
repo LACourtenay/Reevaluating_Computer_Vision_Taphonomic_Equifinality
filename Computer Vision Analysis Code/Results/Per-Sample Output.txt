@@ -1,0 +1,214 @@
+Libraries
+-----------------------------
+OpenCV: 4.7.0
+Numpy: 1.22.0
+Matplotlib: 3.7.0
+SciPy: 1.7.3
+SciKit Image: 0.19.3
+
+DS1
+
+Statistics on LoG Variance ----------------------------------------------------
+
+Shapiro results w = 0.47, p = 7.881122286961977e-37
+
+Min: 11.90
+Median: 21.604
+NMAD: 6.923
+95% Quantile Intevals: [13.91, 98.27] %
+Max: 252.88
+
+Statistics on LoG Range  ----------------------------------------------------
+
+Shapiro results w = 0.59, p = 9.929292415510396e-34
+
+Min: 12.00
+Median: 16.000
+NMAD: 0.000
+95% Quantile Intevals: [16.00, 36.00] %
+Max: 66.00
+
+Statistics on Percentage of Detectable Features  ----------------------------------------------------
+
+Shapiro results w = 0.98, p = 9.669391147326678e-06
+
+Min: 9.68
+Median: 34.756
+NMAD: 12.973
+95% Quantile Intevals: [16.31, 59.45] %
+Max: 68.54
+
+Statistics on Mean Magnitude of Representations by FFT  ----------------------------------------------------
+
+Shapiro results w = 0.97, p = 5.738855168857526e-09
+
+Min: -3.32
+Median: 9.708
+NMAD: 6.731
+95% Quantile Intevals: [0.65, 25.14] %
+Max: 32.25
+
+Statistics on the Number of Pixels presenting Specular Reflections  ----------------------------------------------------
+
+Shapiro results w = 0.24, p = 1.0122135775552165e-30
+
+Min: 0.00 %
+Median: 0.008 %
+NMAD: 0.009
+95% Quantile Intevals: [0.00, 0.67] %
+Max: 4.75 %
+
+Statistics on the Number of Pixels presenting Specular Reflections after erosion  ----------------------------------------------------
+
+Shapiro results w = 0.31, p = 8.904642307525196e-18
+
+Min: 0.00 %
+Median: 0.008 %
+NMAD: 0.011
+95% Quantile Intevals: [0.00, 1.16] %
+Max: 2.62 %
+
+
+46.54 % of images present piques in specular properties
+15.33 % of images present piques in specular properties even after 2 erosion operations
+
+
+49.35 % of images have sufficient contrast
+
+DS2
+
+Statistics on LoG Variance ----------------------------------------------------
+
+Shapiro results w = 0.31, p = 6.025583396596713e-44
+
+Min: 11.90
+Median: 23.478
+NMAD: 9.467
+95% Quantile Intevals: [14.07, 128.33] %
+Max: 995.46
+
+Statistics on LoG Range  ----------------------------------------------------
+
+Shapiro results w = 0.55, p = 1.0226901521435578e-37
+
+Min: 12.00
+Median: 18.000
+NMAD: 2.965
+95% Quantile Intevals: [14.00, 44.00] %
+Max: 132.00
+
+Statistics on Percentage of Detectable Features  ----------------------------------------------------
+
+Shapiro results w = 0.98, p = 7.90479948165057e-09
+
+Min: 9.68
+Median: 37.403
+NMAD: 14.167
+95% Quantile Intevals: [16.44, 65.66] %
+Max: 88.56
+
+Statistics on Mean Magnitude of Representations by FFT  ----------------------------------------------------
+
+Shapiro results w = 0.77, p = 2.982206824239523e-29
+
+Min: -3.32
+Median: 10.737
+NMAD: 7.264
+95% Quantile Intevals: [0.76, 26.69] %
+Max: 94.16
+
+Statistics on the Number of Pixels presenting Specular Reflections  ----------------------------------------------------
+
+Shapiro results w = 0.34, p = 7.995060542270478e-34
+
+Min: 0.00 %
+Median: 0.012 %
+NMAD: 0.017
+95% Quantile Intevals: [0.00, 1.92] %
+Max: 5.48 %
+
+Statistics on the Number of Pixels presenting Specular Reflections after erosion  ----------------------------------------------------
+
+Shapiro results w = 0.36, p = 1.1292098151827334e-23
+
+Min: 0.00 %
+Median: 0.009 %
+NMAD: 0.013
+95% Quantile Intevals: [0.00, 0.62] %
+Max: 2.62 %
+
+
+54.20 % of images present piques in specular properties
+24.89 % of images present piques in specular properties even after 2 erosion operations
+
+
+53.28 % of images have sufficient contrast
+
+DS3
+
+Statistics on LoG Variance ----------------------------------------------------
+
+Shapiro results w = 0.46, p = 0.0
+
+Min: 9.38
+Median: 29.108
+NMAD: 16.621
+95% Quantile Intevals: [13.49, 143.41] %
+Max: 995.46
+
+Statistics on LoG Range  ----------------------------------------------------
+
+Shapiro results w = 0.71, p = 8.682165025263702e-41
+
+Min: 12.00
+Median: 20.000
+NMAD: 5.930
+95% Quantile Intevals: [14.00, 48.00] %
+Max: 132.00
+
+Statistics on Percentage of Detectable Features  ----------------------------------------------------
+
+Shapiro results w = 0.99, p = 0.0001474430609960109
+
+Min: 0.87
+Median: 41.483
+NMAD: 16.342
+95% Quantile Intevals: [15.03, 69.82] %
+Max: 88.56
+
+Statistics on Mean Magnitude of Representations by FFT  ----------------------------------------------------
+
+Shapiro results w = 0.77, p = 1.285684614785391e-37
+
+Min: -12.13
+Median: 11.848
+NMAD: 7.894
+95% Quantile Intevals: [-0.71, 29.11] %
+Max: 94.16
+
+Statistics on the Number of Pixels presenting Specular Reflections  ----------------------------------------------------
+
+Shapiro results w = 0.41, p = 1.915575000732025e-42
+
+Min: 0.00 %
+Median: 0.030 %
+NMAD: 0.042
+95% Quantile Intevals: [0.00, 2.35] %
+Max: 6.98 %
+
+Statistics on the Number of Pixels presenting Specular Reflections after erosion  ----------------------------------------------------
+
+Shapiro results w = 0.33, p = 1.097270884096389e-35
+
+Min: 0.00 %
+Median: 0.012 %
+NMAD: 0.018
+95% Quantile Intevals: [0.00, 0.95] %
+Max: 5.32 %
+
+
+58.44 % of images present piques in specular properties
+33.84 % of images present piques in specular properties even after 2 erosion operations
+
+
+56.57 % of images have sufficient contrast
