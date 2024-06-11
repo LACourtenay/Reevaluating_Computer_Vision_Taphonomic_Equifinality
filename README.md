@@ -1,4 +1,4 @@
-# Debunking_Computer_Vision_Taphonomic_Equifinality
+# Reevaluating_Computer_Vision_Taphonomic_Equifinality
 
 
 ### How to structure data:
