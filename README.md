@@ -91,14 +91,34 @@ Due to issues related with intelectual property, the current authors do not have
   * Original paper - https://doi.org/10.1080/08912963.2023.2242370
   * Original dataset - https://doi.org/10.17632/3bm34bp6p4.1
 
-
-
-
 For computer vision analysis data must simply be in a folder called DS1, DS2 or DS3. For deep learning applications, data must be in a folder called "Train" within either "DS1", "DS2", or "DS3". The code will then sort the data from the train folder into either the test or validation folder.
 
 --------------------------------------------------------
 
-## <b> Citation </b>
+### <b> First round of reviews and changes to code  [*] </b>
+
+Thanks to the suggestions of 3 very constructive and helpful reviewers, changes were made to parts of the analysis performed which has an impact on the jupyter notebook files contained within the folder <b> Deep Learning Code </b>. These changes involve the removal of part of the analysis, as suggested by the reviewers. The original manuscript contained comments regarding the performance of algorithms when attacked by adversarial noise. As correctly pointed out by reviewers, however, adversarial noise is carefully calculated and not a true reflection of what would happen if algorithms are exposed to natural random noise. For this reason, the final section regarding adversarial noise was removed from the revised version of the manuscript. HOWEVER, because the objective of uploading jupyter notebooks presenting the trained CNNs was to ensure transparency, and show the reader the precise output of each file without doctoring or modifying the file afterwards, this presents some issues that would either require completely re-running all of the codes, which would then require updating the entire results section of the manuscript, or deleting cells, which would then become apparent or look like we are trying to hide things. For this reason, our goal is to ensure that the jupyter notebooks are non-adultered, and have not been touched since being run, and instead we will provide the following statements identifying which cells of code for each file are to be discarded as no longer forming part of the study.
+
+* <b>DS1 Final Training Jason2.ipynb</b>
+  * Cell 11 - contains code that extracts the real labels of each image from the training generator as well as calculating the labels and probabilities predicted by the algorithm without the introduction of adversarial noise, called original_probs, original_labels and real_labels. The definition and contents of these three objects are fine, all other objects and calculations must be discarded.
+  * Cell 13 and 14 - contains the comparison of loss and confidence probabilities when making predictions for both adversarial examples, and the algorithms before adversarial noise are introduced. All adversarial examples must be discarded.
+  * Cell 15 - contains loss rates of the algorithms before (original) and after (adversarial) adversarial noise is introduced into the equation, all adversarial examples must be discarded.
+  * Cell 16 - must be discarded completely
+  * Cell 18 and 19 - please ignore the green curves in both figures.
+* <b>DS2 Final Training DenseNet201.ipynb</b>
+  * Cell 10 - contains code that extracts the real labels of each image from the training generator as well as calculating the labels and probabilities predicted by the algorithm without the introduction of adversarial noise, called original_probs, original_labels and real_labels. The definition and contents of these three objects are fine, all other objects and calculations must be discarded.
+  * Cell 13 and 14 - contains the comparison of loss and confidence probabilities when making predictions for both adversarial examples, and the algorithms before adversarial noise are introduced. All adversarial examples must be discarded.
+  * Cell 15 - contains loss rates of the algorithms before (original) and after (adversarial) adversarial noise is introduced into the equation, all adversarial examples must be discarded.
+  * Cell 16 - must be discarded completely
+* <b>DS3 Final Training DenseNet201.ipynb</b>
+  * Cell 11 - contains code that extracts the real labels of each image from the training generator as well as calculating the labels and probabilities predicted by the algorithm without the introduction of adversarial noise, called original_probs, original_labels and real_labels. The definition and contents of these three objects are fine, all other objects and calculations must be discarded.
+  * Cell 14 and 15 - contains the comparison of loss and confidence probabilities when making predictions for both adversarial examples, and the algorithms before adversarial noise are introduced. All adversarial examples must be discarded.
+  * Cell 16 - contains loss rates of the algorithms before (original) and after (adversarial) adversarial noise is introduced into the equation, all adversarial examples must be discarded.
+  * Cell 17 and 19 - must be discarded completely
+
+--------------------------------------------------------
+
+## <b> Repository Citation </b>
 
 Please cite this repository as:
 
