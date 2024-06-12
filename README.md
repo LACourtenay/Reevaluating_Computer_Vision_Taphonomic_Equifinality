@@ -43,9 +43,16 @@ The present repository contains:
     * Python code used to generate synthetic data and train a simple neural network under three forced conditions; overfitting, underfitting, and perfect fitting to the data.
   * <b>Grad_CAM_Code.py</b>
     * Python code used to perform Grad-CAM analyses on each of the datasets. This code is run using a agrument parser in command prompt. Simply run using the following prompt in an activated and appropriate conda environment;
-      * <b> python Grad_CAM_Code.py --dataset 1 </b> - <i> for dataset 1 </i>
-      * <b> python Grad_CAM_Code.py --dataset 2 </b> - <i> for dataset 2 </i>
-      * <b> python Grad_CAM_Code.py --dataset 3 </b> - <i> for dataset 3 </i>
+      * <b> python Grad_CAM_Code.py --dataset 1 </b> <i> for dataset 1 </i>
+      * <b> python Grad_CAM_Code.py --dataset 2 </b> <i> for dataset 2 </i>
+      * <b> python Grad_CAM_Code.py --dataset 3 </b> <i> for dataset 3 </i>
+  * <b>Failed DS1, DS2 and DS3 Folders</b>
+    * All of the jupyter notebooks for the remaining algorithms trained on each of the datasets, including in many cases annotations as well. For DS1 this includes DenseNet201, EficientNetB7, ResNet50 and VGG16. For DS2 this includes Alexnet, DenseNet201, InceptionV3, Jason, Jason2, ResNet50. For DS3 this includes ResNet50 and VGG19
+* <b> Ensemble Learning Preparation </b>
+  * <b>Train Base Models v1.py</b>
+    * Code used to train the original first-level learner models that were then implemented in an Ensemble Learning training strategy in Supplementary File 2 of the main article.
+  * <b>Train Base Models v2.py</b>
+    * Code used to train the original first-level learner models that were then implemented in an Ensemble Learning training strategy in Supplementary File 2 of the main article. In comparison to v1 of this same file, the difference is that this file performs a slightly different train, test, metatrain and validation split. THis is documented in detail in Supplementary File 2.
   
 [*] See additional comments bellow on the removal of portions of the code due to the reviewing process.
 
@@ -53,11 +60,19 @@ The present repository contains:
 
 ## <b> System Requirements for Deep Learning </b>
 
+<i> Note that here we specify the versions of the libraries that we used for the present study. We are unaware if earlier or later versions of the same libraries will work or present problems, because we have not tested this, the objective here is simply to state how we ran each of the codes presented </i>
+
+* Anaconda
 * Python
     * Version 3.0 or higher
-* Tensorflow
-    * Version 2.0 or higher
-* Numpy
+* The following Python libraries
+    * Tensorflow - <i>v.2.12.0</i>
+    * Scikit Learn - <i>v.1.3.1</i>
+    * Numpy - <i>v.1.22.0</i>
+    * Matplotlib - <i>v.3.7.0</i>
+    * Scipy - <i>v.1.7.3</i>
+    * SciKit Image - <i>v.0.19.3</i>
+    * OpenCV - <i>v.4.7.0</i>
 
 --------------------------------------------------------
 
