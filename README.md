@@ -35,8 +35,19 @@ The present repository contains:
 * <b> Deep Learning Code </b>
   * <b>DS1 Final Training Jason2.ipynb</b>
     * Jupyter notebook with python code demonstrating the training of Jason2 for classification tasks on DS1 (see below for information about the datasets) [*]
+  * <b>DS2 Final Training VGG16.ipynb</b>
+    * Jupyter notebook with python code demonstrating the training of VGG16 for classification tasks on DS2 (see below for information about the datasets) [*]
+  * <b>DS3 Final Training DenseNet201.ipynb</b>
+    * Jupyter notebook with python code demonstrating the training of DenseNet201 for classification tasks on DS3 (see below for information about the datasets) [*]
+  * <b>Example of Hypothetical Learning Curves.py</b>
+    * Python code used to generate synthetic data and train a simple neural network under three forced conditions; overfitting, underfitting, and perfect fitting to the data.
+  * <b>Grad_CAM_Code.py</b>
+    * Python code used to perform Grad-CAM analyses on each of the datasets. This code is run using a agrument parser in command prompt. Simply run using the following prompt in an activated and appropriate conda environment;
+      * <b> python Grad_CAM_Code.py --dataset 1 </b> - <i> for dataset 1 </i>
+      * <b> python Grad_CAM_Code.py --dataset 2 </b> - <i> for dataset 2 </i>
+      * <b> python Grad_CAM_Code.py --dataset 3 </b> - <i> for dataset 3 </i>
   
-[*]
+[*] See additional comments bellow on the removal of portions of the code due to the reviewing process.
 
 --------------------------------------------------------
 
