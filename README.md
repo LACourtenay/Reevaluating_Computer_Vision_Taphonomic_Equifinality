@@ -1,5 +1,64 @@
 # Reevaluating_Computer_Vision_Taphonomic_Equifinality
+Code used for the evaluation of how reliable deep learning based computer vision algorithms are for the study of taphonomic equifinality. This code was used to carry out the study titled <b> Deep Learning-based Computer Vision is not yet the answer to taphonomic equifinality in Bone Surface Modifications </b>, by Lloyd A. Courtenay, Nicolas Vanderesse, Luc Doyon and Antoine Souron, currently under review at the <i> Journal of Computational Applications in Archaeology </i>.
 
+-----------------------------------------------------------------------------------------------------------------
+
+## <b> Author Details </b>
+
+<b> Author </b>: Lloyd A. Courtenay
+
+<b> Email </b>: ladc1995@gmail.com
+
+<b> ORCID </b>: https://orcid.org/0000-0002-4810-2001
+
+<b> Current Afiliation </b>: University of Bordeaux [CNRS, PACEA UMR5199]
+
+---------------------------------------------------------------------------------------------------
+
+This code has been designed for the open-source free Python programming languages.
+
+---------------------------------------------------------------------------------------------------
+
+## <b> Repository Details </b>
+
+The present repository contains:
+
+* <b> Computer Vision Analysis Code </b>
+  * <b>Analysis of Images According to Sample.ipynb</b>
+    * Jupyter notebook containing the code used to assess the quality of images in each of the datasets, separating between what the images are of (the sample)
+  * <b>Computer Vision Analysis.py</b>
+    * Code used to conduct quality assessment of each image in each of the datasets, additionally producing gradient maps and supplementary images to help assess image quality. The output of much of this code is available at: https://doi.org/10.6084/m9.figshare.24877743.v1 . Numeric results are included in the Results folder of this same repository.
+  * <b>Preliminary Experiment.ipynb</b>
+    * Jupyter notebook demonstrating some of the concepts of how to evaluate image quality using the computer vision codes. This includes an example of an archaeological cut mark photographed under different conditions and then studied with each of the techniques, plus experiments gradually blurring the image and observing how this effects the numeric results produced throughout analyses
+  * <b>Results Folder</b>
+    * This contains the numeric results and output produced by each of the codes provided within this folder. All visual maps, representations and figures were too large to include in GitHub and are therefore stored and available from: https://doi.org/10.6084/m9.figshare.24877743.v1 
+* <b> Deep Learning Code </b>
+  * <b>DS1 Final Training Jason2.ipynb</b>
+    * Jupyter notebook with python code demonstrating the training of Jason2 for classification tasks on DS1 (see below for information about the datasets) [*]
+  
+[*]
+
+--------------------------------------------------------
+
+## <b> System Requirements for Deep Learning </b>
+
+* Python
+    * Version 3.0 or higher
+* Tensorflow
+    * Version 2.0 or higher
+* Numpy
+
+--------------------------------------------------------
+
+## <b> Citation </b>
+
+Please cite this repository as:
+
+ <b> Courtenay, L.A. (2024) Code and Data for the Modelling of Pachycrocuta tooth pits using Variational Autoencoders and Markov Chain Monte Carlo algorithms. https://github.com/LACourtenay/VAE_MCMC_Pachycrocuta_Simulations </b>
+
+--------------------------------------------------------
+
+Comments, questions, doubts, suggestions and corrections can all be directed to L. A. Courtenay at the email provided above.
 
 ### How to structure data:
 
