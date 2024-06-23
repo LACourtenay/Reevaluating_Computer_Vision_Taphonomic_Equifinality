@@ -27,11 +27,11 @@ The present repository contains:
   * <b>Analysis of Images According to Sample.ipynb</b>
     * Jupyter notebook containing the code used to assess the quality of images in each of the datasets, separating between what the images are of (the sample)
   * <b>Computer Vision Analysis.py</b>
-    * Code used to conduct quality assessment of each image in each of the datasets, additionally producing gradient maps and supplementary images to help assess image quality. The output of much of this code is available at: https://doi.org/10.6084/m9.figshare.24877743.v1 . Numeric results are included in the Results folder of this same repository.
+    * Code used to conduct quality assessment of each image in each of the datasets, additionally producing gradient maps and supplementary images to help assess image quality. The output of much of this code is available at: https://doi.org/10.6084/m9.figshare.24877743.v3 . Numeric results are included in the Results folder of this same repository.
   * <b>Preliminary Experiment.ipynb</b>
     * Jupyter notebook demonstrating some of the concepts of how to evaluate image quality using the computer vision codes. This includes an example of an archaeological cut mark photographed under different conditions and then studied with each of the techniques, plus experiments gradually blurring the image and observing how this effects the numeric results produced throughout analyses
   * <b>Results Folder</b>
-    * This contains the numeric results and output produced by each of the codes provided within this folder. All visual maps, representations and figures were too large to include in GitHub and are therefore stored and available from: https://doi.org/10.6084/m9.figshare.24877743.v1 
+    * This contains the numeric results and output produced by each of the codes provided within this folder. All visual maps, representations and figures were too large to include in GitHub and are therefore stored and available from: https://doi.org/10.6084/m9.figshare.24877743.v3 
 * <b> Deep Learning Code </b>
   * <b>DS1 Final Training Jason2.ipynb</b>
     * Jupyter notebook with python code demonstrating the training of Jason2 for classification tasks on DS1 (see below for information about the datasets) [*]
@@ -115,6 +115,8 @@ Thanks to the suggestions of 3 very constructive and helpful reviewers, changes 
   * Cell 14 and 15 - contains the comparison of loss and confidence probabilities when making predictions for both adversarial examples, and the algorithms before adversarial noise are introduced. All adversarial examples must be discarded.
   * Cell 16 - contains loss rates of the algorithms before (original) and after (adversarial) adversarial noise is introduced into the equation, all adversarial examples must be discarded.
   * Cell 17 and 19 - must be discarded completely
+
+It is also important, therefore, to point out that the original version of the figshare repository (https://doi.org/10.6084/m9.figshare.24877743.v1) contains code and figures regarding these adversarial attack analyses, the revised version which is now published as version 3 at https://doi.org/10.6084/m9.figshare.24877743.v3, does not contain these files. In this repository, however, you will find the Grad-CAM results for the entire study in a zip file that contains the original image, the Grad-CAM of this original image, and finally the Grad-CAM of the image after introducing adversarial noise, as stated before, this third image should therefore be disregarded since the first review of the present study.
 
 --------------------------------------------------------
 
