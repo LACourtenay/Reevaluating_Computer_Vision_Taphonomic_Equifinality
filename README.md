@@ -114,7 +114,7 @@ The general structure of the directory should therefore be as follows, before ex
   │   │   ├── Trampling/
 ```
 
-The original datasets, in most cases, are not clean at all (DS3 being the main exception, DS2 presents a brief description in the abstract of the dataset), and it may not always be clear what images pertain to which class. In general, files with names containing the characters 'SF' are cut marks, the term SF refering to 'Simple Flake'. The characters 'LS', or direct names of animals such as 'wolves', 'bears', 'lions' or 'hyenas', evidently refer to tooth scores. Trampling marks are usually have files containing either the word 'trampling', or the characters 'tmp'. Finally crocodile tooth scores contain 'CS' (Crocodile Score) in the file name.
+The original datasets, in most cases, are not clean at all (DS3 being the main exception, DS2 presents a brief description in the abstract of the dataset), and it may not always be clear what images pertain to which class. In general, files with names containing the characters 'SF' are cut marks, the term SF refering to 'Simple Flake'. The characters 'LS', or direct names of animals such as 'wolves', 'bears', 'lions' or 'hyenas', evidently refer to tooth scores. Trampling marks are usually have files containing either the word 'trampling', or the characters 'tmp'. Finally crocodile tooth scores contain 'CS' (Crocodile Score) in the file name. For DS3, the user should only download the experimental data, not the archaeological data, so one folder should be excluded, while the dataset should also be fused with DS2 (as explained in our manuscript, and the original publication of DS3)
 
 --------------------------------------------------------
 
