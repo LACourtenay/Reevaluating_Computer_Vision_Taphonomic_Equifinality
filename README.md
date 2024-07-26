@@ -91,7 +91,28 @@ Due to issues related with intelectual property, the current authors do not have
   * Original paper - https://doi.org/10.1080/08912963.2023.2242370
   * Original dataset - https://doi.org/10.17632/3bm34bp6p4.1
 
-For computer vision analysis data must simply be in a folder called DS1, DS2 or DS3. For deep learning applications, data must be in a folder called "Train" within either "DS1", "DS2", or "DS3". The code will then sort the data from the train folder into either the test or validation folder.
+For computer vision analysis data must simply be in a folder called DS1, DS2 or DS3. For deep learning applications, data must be in a folder called "Train" within either "DS1", "DS2", or "DS3". Inside the train folder, the user needs to sort the images also into their corresponding class folders, e.g. in DS1 the Train folder must contain a folder containing the crocodile tooth marks, and one containing the cut marks. The code will then sort the data from the train folder into either the test or validation folder.
+
+The general structure of the directory should therefore be as follows, before executing any of the code:
+
+./
+  ├── CodeToRun.py
+  ├── DS1/
+  ├── ├── Train/
+  ├── ├── ├── CutMark/
+  ├── ├── ├── Crocodile/
+  ├── DS2/
+  ├── ├── Train/
+  ├── ├── ├── CutMark/
+  ├── ├── ├── Score/
+  ├── ├── ├── Trampling/
+  ├── DS3/
+  ├── ├── Train/
+  ├── ├── ├── CutMark/
+  ├── ├── ├── Score/
+  ├── ├── ├── Trampling/
+
+The original datasets, in most cases, are not clean at all (DS3 being the main exception, DS2 presents a brief description in the abstract of the dataset), and it may not always be clear what images pertain to which class. In general, files with names containing the characters 'SF' are cut marks, the term SF refering to 'Simple Flake'. The characters 'LS', or direct names of animals such as 'wolves', 'bears', 'lions' or 'hyenas', evidently refer to tooth scores. Trampling marks are usually have files containing either the word 'trampling', or the characters 'tmp'. Finally crocodile tooth scores contain 'CS' (Crocodile Score) in the file name.
 
 --------------------------------------------------------
 
