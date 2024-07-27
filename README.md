@@ -53,6 +53,9 @@ The present repository contains:
     * Code used to train the original first-level learner models that were then implemented in an Ensemble Learning training strategy in Supplementary File 2 of the main article.
   * <b>Train Base Models v2.py</b>
     * Code used to train the original first-level learner models that were then implemented in an Ensemble Learning training strategy in Supplementary File 2 of the main article. In comparison to v1 of this same file, the difference is that this file performs a slightly different train, test, metatrain and validation split. THis is documented in detail in Supplementary File 2.
+* <b> Greyscale_Examples </b>
+  * <b>Greyscale_Comparison_Code.ipynb </b>
+    * Supplementary code used to assess the differences between RGB images, and greyscale images that either have 1 or 3 channels, as well as how these conversions can be performed. This file uses the three example images provided in the same folder, descriptions of which are provided in the jupyter notebook.
   
 [*] See additional comments bellow on the removal of portions of the code due to the reviewing process.
 
