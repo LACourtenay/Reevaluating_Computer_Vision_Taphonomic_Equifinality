@@ -94,9 +94,9 @@ Due to issues related with intelectual property, the current authors do not have
   * Original paper - https://doi.org/10.1080/08912963.2023.2242370
   * Original dataset - https://doi.org/10.17632/3bm34bp6p4.1
 
-For computer vision analysis data must simply be in a folder called DS1, DS2 or DS3, while the samples should be placed into their corresponding folders (cut marks should be placed in a folder called "cut marks", etc). For deep learning applications, data must be additionally sorted into a folder called "Train" within either "DS1", "DS2", or "DS3". Inside the train folder, the user needs to sort the images also into their corresponding class folders, e.g. in DS1 the Train folder must contain a folder containing the crocodile tooth marks, and one containing the cut marks. The code will then sort the data from the train folder into either the test or validation folder, according to the train:test:validation split.
+For all applications, data must be sorted into a folder called "Train" within either "DS1", "DS2", or "DS3". Inside the train folder, the user needs to sort the images also into their corresponding class folders, e.g. in DS1 the Train folder must contain a folder containing the crocodile tooth marks, and one containing the cut marks. The code will then sort the data from the train folder into either the test or validation folder, according to the train:test:validation split.
 
-The general structure of the directory for deep learning applications should therefore be as follows, before executing any of the code:
+The general structure of the directory should therefore be as follows, before executing any of the code:
 
 ```
 ./
@@ -118,8 +118,6 @@ The general structure of the directory for deep learning applications should the
 ```
 
 The original datasets, in most cases, are not clean at all (DS3 being the main exception, DS2 presents a brief description in the abstract of the dataset), and it may not always be clear what images pertain to which class. In general, files with names containing the characters 'SF' are cut marks, the term SF refering to 'Simple Flake'. The characters 'LS', or direct names of animals such as 'wolves', 'bears', 'lions' or 'hyenas', evidently refer to tooth scores. Trampling marks are usually have files containing either the word 'trampling', or the characters 'tmp'. Finally crocodile tooth scores contain 'CS' (Crocodile Score) in the file name. For DS3, the user should only download the experimental data, not the archaeological data, so one folder should be excluded, while the dataset should also be fused with DS2 (as explained in our manuscript, and the original publication of DS3).
-
-Just for clarification (again), the computer vision image analysis code should have the same general structure as that provided above, without the inclusion of a "Train" subfolder. For this reason, if the user wishes to run all code, we suggest using the computer vision analysis code first, and then perform deep learning applications.
 
 --------------------------------------------------------
 
