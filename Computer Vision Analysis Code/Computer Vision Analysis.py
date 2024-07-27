@@ -272,7 +272,7 @@ os.makedirs(gradient_maps_folder, exist_ok = True)
 os.makedirs(specular_reflection_folder, exist_ok = True)
 output_csv_path = "./CV Results/results_DS1.csv"
 
-main_directory = "./DS1"
+main_directory = "./DS1/Train"
 
 number_of_images_good_quality_images = 0
 number_of_images = 0
@@ -416,7 +416,7 @@ print(f"\n\n{perc_good_images * 100:.2f} % of images have sufficient contrast")
 
 output_csv_path = "./CV Results/results_DS2.csv"
 
-main_directory = "./DS2"
+main_directory = "./DS2/Train"
 
 number_of_images_good_quality_images = 0
 number_of_images = 0
@@ -551,7 +551,7 @@ os.makedirs(gradient_maps_folder, exist_ok = True)
 os.makedirs(specular_reflection_folder, exist_ok = True)
 output_csv_path = "./CV Results/results_DS3.csv"
 
-main_directory = "./DS3"
+main_directory = "./DS3/Train"
 
 number_of_images_good_quality_images = 0
 number_of_images = 0
