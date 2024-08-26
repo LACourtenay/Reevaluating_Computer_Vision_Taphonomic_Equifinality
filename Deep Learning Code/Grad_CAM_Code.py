@@ -474,11 +474,11 @@ if target_dataset == "DS1":
         destination_folder = "./DS1/Train"
 
         for source_folder in source_folders:
-            croc_source_path = os.path.join(source_folder, "Croc")
-            cut_mark_source_path = os.path.join(source_folder, "Cut Mark")
+            croc_source_path = os.path.join(source_folder, "Crocodile")
+            cut_mark_source_path = os.path.join(source_folder, "CutMark")
 
-            croc_destination_path = os.path.join(destination_folder, "Croc")
-            cut_mark_destination_path = os.path.join(destination_folder, "Cut Mark")
+            croc_destination_path = os.path.join(destination_folder, "Crocodile")
+            cut_mark_destination_path = os.path.join(destination_folder, "CutMark")
 
             for filename in os.listdir(croc_source_path):
                 source_file = os.path.join(croc_source_path, filename)
@@ -502,24 +502,24 @@ elif target_dataset == "DS2":
         destination_folder = "./DS2/Train"
 
         for source_folder in source_folders:
-            source_path = os.path.join(source_folder, "Cut-marks")
-            destination_path = os.path.join(destination_folder, "Cut-marks")
+            source_path = os.path.join(source_folder, "CutMark")
+            destination_path = os.path.join(destination_folder, "CutMark")
 
             for filename in os.listdir(source_path):
                 source_file = os.path.join(source_path, filename)
                 destination_file = os.path.join(destination_path, filename)
                 shutil.move(source_file, destination_file)
 
-            source_path = os.path.join(source_folder, "Scores")
-            destination_path = os.path.join(destination_folder, "Scores")
+            source_path = os.path.join(source_folder, "Score")
+            destination_path = os.path.join(destination_folder, "Score")
 
             for filename in os.listdir(source_path):
                 source_file = os.path.join(source_path, filename)
                 destination_file = os.path.join(destination_path, filename)
                 shutil.move(source_file, destination_file)
 
-            source_path = os.path.join(source_folder, "Tramplings")
-            destination_path = os.path.join(destination_folder, "Tramplings")
+            source_path = os.path.join(source_folder, "Trampling")
+            destination_path = os.path.join(destination_folder, "Trampling")
 
             for filename in os.listdir(source_path):
                 source_file = os.path.join(source_path, filename)
@@ -537,24 +537,24 @@ else:
         destination_folder = "./DS3/Train"
 
         for source_folder in source_folders:
-            source_path = os.path.join(source_folder, "Cut-marks")
-            destination_path = os.path.join(destination_folder, "Cut-marks")
+            source_path = os.path.join(source_folder, "CutMark")
+            destination_path = os.path.join(destination_folder, "CutMark")
 
             for filename in os.listdir(source_path):
                 source_file = os.path.join(source_path, filename)
                 destination_file = os.path.join(destination_path, filename)
                 shutil.move(source_file, destination_file)
 
-            source_path = os.path.join(source_folder, "Scores")
-            destination_path = os.path.join(destination_folder, "Scores")
+            source_path = os.path.join(source_folder, "Score")
+            destination_path = os.path.join(destination_folder, "Score")
 
             for filename in os.listdir(source_path):
                 source_file = os.path.join(source_path, filename)
                 destination_file = os.path.join(destination_path, filename)
                 shutil.move(source_file, destination_file)
 
-            source_path = os.path.join(source_folder, "Tramplings")
-            destination_path = os.path.join(destination_folder, "Tramplings")
+            source_path = os.path.join(source_folder, "Trampling")
+            destination_path = os.path.join(destination_folder, "Trampling")
 
             for filename in os.listdir(source_path):
                 source_file = os.path.join(source_path, filename)
