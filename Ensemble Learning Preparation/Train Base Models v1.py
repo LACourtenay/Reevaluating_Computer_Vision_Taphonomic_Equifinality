@@ -54,9 +54,9 @@ def create_test_set(source_dir, test_dir, class_names, test_percent):
 img_height, img_width = 80, 400
 num_classes = 3
 
-source_data_dir = "./MDR Dataset/Train"
-test_data_dir = "./MDR Dataset/Testset"
-valid_data_dir = "./MDR Dataset/Validset"
+source_data_dir = "./DS2/Train"
+test_data_dir = "./DS2/Testset"
+valid_data_dir = "./DS2/Validset"
 class_names = os.listdir(source_data_dir)
 
 first_execution = True
