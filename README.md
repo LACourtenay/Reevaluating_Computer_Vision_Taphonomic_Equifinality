@@ -56,6 +56,8 @@ The present repository contains:
 * <b> Greyscale_Examples </b>
   * <b>Greyscale_Comparison_Code.ipynb </b>
     * Supplementary code used to assess the differences between RGB images, and greyscale images that either have 1 or 3 channels, as well as how these conversions can be performed. This file uses the three example images provided in the same folder, descriptions of which are provided in the jupyter notebook.
+* <b> DS1_File_Index.txt </b>, <b> DS2_File_Index.txt </b> and <b> DS3_File_Index.txt </b> file
+  * Files detailing the contents of each of the folders, also indicating which images belong to which classes.
   
 [*] See additional comments bellow on the removal of portions of the code due to the reviewing process.
 
@@ -117,7 +119,7 @@ The general structure of the directory should therefore be as follows, before ex
   │   │   ├── Trampling/
 ```
 
-The original datasets, in most cases, are not clean at all (DS3 being the main exception, DS2 presents a brief description in the abstract of the dataset), and it may not always be clear what images pertain to which class. In general, files with names containing the characters 'SF' are cut marks, the term SF refering to 'Simple Flake'. The characters 'LS', or direct names of animals such as 'wolves', 'bears', 'lions' or 'hyenas', evidently refer to tooth scores. Trampling marks are usually have files containing either the word 'trampling', or the characters 'tmp'. Finally crocodile tooth scores contain 'CS' (Crocodile Score) in the file name. For DS3, the user should only download the experimental data, not the archaeological data, so one folder should be excluded, while the dataset should also be fused with DS2 (as explained in our manuscript, and the original publication of DS3).
+The original datasets, in most cases, are not clean at all (DS3 being the main exception, DS2 presents a brief description in the abstract of the dataset), and it may not always be clear what images pertain to which class. Files with names containing the characters 'SF' are cut marks, the term SF refering to 'Simple Flake'. The characters 'LS', or direct names of animals such as 'wolves', 'bears', 'lions' or 'hyenas', evidently refer to tooth scores. Trampling marks are files containing either the word 'trampling', or the characters 'tmp'. Finally crocodile tooth scores contain 'CS' (Crocodile Score) in the file name. For DS3, the user should only download the experimental data, not the archaeological data, so one folder should be excluded, while the dataset should also be fused with DS2 (as explained in our manuscript, and the original publication of DS3). The three .txt files containing the term File_Index in the name provide a detailed index of which folders the images should be placed in.
 
 --------------------------------------------------------
 
