@@ -80,6 +80,8 @@ The present repository contains:
 
 <b>NOTE: </b> All code was run using the CPU of a basic laptop. No GPU was used. This can result in relatively long training times. If the user wishes to use GPU, please adapt the code accordingly. Likewise, all code was run on a local machine, no cloud computation was employed, if the user wishes to run code in the cloud, or using an external server or service, such as google colab, they may need to adapt their code to allow and facilitate this.
 
+<b>NOTE: Tensorflow is an arguably annoying library in that when they update the library, many functions begin to work differently, or may present problems. It is VERY important that you use specifically the versions of libraries presented above. We recommend that you do this by having an Anaconda environment specifically established for this project with those precise library and package versions. Please do not blindly run the code on any computer thinking that the code will work without checking that your computer meets these requirements.</b>
+
 --------------------------------------------------------
 
 ### <b> Datasets and Directory Structure </b>
